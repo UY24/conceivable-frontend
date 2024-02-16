@@ -8,12 +8,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import ReactLoading from 'react-loading'
 
-
-
-
 const ChatBox = ({ name, email, handleLogOut }) => {
 
-    const backendURL = 'http://127.0.0.1:5000'
+    const backendURL = 'https://utkarsh1704.pythonanywhere.com'
     const [allAudios, setAllAudios] = useState([])
     const [audioFile, setAudioFile] = useState(null);
     const [recording, setRecording] = useState(false);
